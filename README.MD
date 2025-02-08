@@ -49,7 +49,7 @@ cargo run
 
 - **Create a new item**
     - `POST /users`
-    - Request body: JSON object with item details
+    - Request body: JSON object with user details
 
 - **Get all users**
     - `GET /users`
@@ -59,7 +59,7 @@ cargo run
 
 - **Update an item**
     - `PATCH /users/{id}`
-    - Request body: JSON object with updated item details
+    - Request body: JSON object with updated user details
 
 - **Delete an item**
     - `DELETE /users/{id}`
